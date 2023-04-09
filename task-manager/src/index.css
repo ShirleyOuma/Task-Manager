@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9faf8;
+}
+.content {
+  background-color: #01263a;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 1.5rem rgba(0,0,0,.1);
+}
+
+.tasks-title{
+  cursor:pointer;
+  font-weight: bold;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  border-bottom: none;
+  margin-right:20px;
+  cursor:pointer;
+  text-transform: uppercase;  
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tab-list>span.active {
+  background-color:#F699CD;
+  color: #0b0909;
+  border-color: #F699CD;
+}
+
+/* Task list styles */
+
+.button-container button {
+  margin-right: 10px; /* Adds 10 pixels of margin between the buttons */
+}
+
+.btn {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-warning:hover {
+  background-color: #ffca2c;
+  border-color: #ffca2c;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #23272b;
+  border-color: #23272b;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Modal styles */
+
+.modal-dialog {
+  max-width: 50rem;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
